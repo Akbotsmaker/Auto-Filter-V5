@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6242228205:AAGaX84FxfsAigZGbIXjHoCw2gNU8u7
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/5c586e00f34665267ab5b.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/a01db35e1fe42770dfc7f.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/94750f782f45f592b823f.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/8ee413afc32e5b393e790.jpg")
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/07c14729659c7c2b99f5a.jpg")
@@ -48,8 +48,8 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/ak_movie_requst_group')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001781991569))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001829208012))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001781991569)
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001829208012)
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/Ak_files1')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/+8E1g6BOku2czNDdl')
 
